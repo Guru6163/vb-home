@@ -20,8 +20,9 @@ const CTACard = () => {
       <div>
         <div className="text-center py-2 my-4 max-w-xl animate-fadeIn">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
-            Experience Nature's Beauty
+            Experience Nature&apos;s Beauty
           </h2>
+
           <p className="hidden md:block text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
             Elevate your skincare routine with Virtue Botanica, where beauty
             meets nature. Our handcrafted products are meticulously formulated
