@@ -27,8 +27,8 @@ const products = [
 
 function Products() {
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-8">Products</h1>
+    <div className="container mx-auto pb-8 px-4">
+      <h1 className="font-bold mb-8 text-xl text-center sm:text-3xl animate__animated animate__fadeInDown text-green-800">Top Selling Products</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {products.map(product => (
           <div key={product.id} className="bg-white p-4 shadow rounded-lg">
