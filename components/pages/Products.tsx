@@ -12,7 +12,7 @@ function Products() {
             <img src={'https://res.cloudinary.com/dua8sce9b/image/upload/v1714412328/Introducing_Neem-Tulasi_Your_Ultimate_Solution_to_Dandruff_Woes_ziepkv.svg'} alt={product.productName} className="w-full h-80 object-cover mb-4 rounded-md" />
             <h2 className="text-lg font-bold mb-2">{product.productName}</h2>
             <p className="text-gray-600 mb-2">{product.category}</p>
-            <p className="text-green-600 font-bold">{product.sellingCost}</p>
+            <p className="text-green-600 font-bold">Rs.{product.sellingCost}</p>
           </div>
         ))}
       </div>
